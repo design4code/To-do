@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+<body>
+
+    <div id="add-list-popup" class="moda">
+            <div class="add-button-wapper">
+                 
+            </div>
+    </div>
+
+    <div class="container">
+        <aside>
+            <section class="profile-desktop">
+                <div class="settings-wrapper"></div>
+                <div class="profile-wrapper">
+                    <div class="profile-image"><img src="images/profile-pic.png" /></div>
+                    <div class="profile-name">John Doe</div>
+                </div>   
+            </section>
+            <section>
+                <ul class="categories-list">
+                    <li class="active"><i class="icont-list"></i>Work Items </li>
+                    <li><i class="icont-list"></i> Grocery List</li>
+                    <li><i class="icont-list"></i> Work Out Routine</li>
+                    <li><i class="icont-list"></i> Grocery List</li>
+                </ul>
+                <a href="#" class="add-category-wrapper"><i class="icon-add-cat"></i> Add New Category</a>
+            </section>
+        </aside>
+        <div class="content">
+            <header>
+                <section class="profile-mobile">
+                    <div class="settings-wrapper"></div>
+                    <div class="mobile-profile">
+                        <div class="profile-image"><img src="images/profile-pic.png" /></div>
+                        <div class="profile-name">John Doe</div>
+                    </div>
+                </section>
+                <div class="title"><h1>Work Items</h1></div>
+            </header>
+            <section>
+                <ul id="ul" class="to-do-list">
+                    <li class="complete"><i class="icont-done"></i> Complete mockup </li>
+                    <li><i class="icont-todo"></i> Design wireframe for mobile app</li>
+                    <li><i class="icont-todo"></i> Skype call with client</li>
+                    <li><i class="icont-todo"></i> Meeting at 3pm</li>
+                </ul>  
+
+                <div class="add-button-wapper">
+                    <button id="addPop" class="add-button">
+                        <img class="add-btn" src="images/icon-add-button.svg" >
+                    </button>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
